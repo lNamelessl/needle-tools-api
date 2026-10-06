@@ -94,6 +94,11 @@ assert r2.choices[0].finish_reason == "stop"
   (prefix + messages + `max_tokens`) would overflow get a clear `400`.
 - **Usage numbers are estimates** (byte-level heuristic), marked in `needle.note`.
 - **English responses** (`locale: en-US` system facts by default).
+- **Latency on shared 1 vCPU:** measured ~1.2–4.4 s per tool-call turn (p50 ≈ 2 s)
+  on Railway's shared vCPU; the Needle engine is CPU-bound at decode time and
+  shows run-to-run variance (occasionally a messy extraction returns `null` =
+  "nothing matched" — it always parses). Faster cores scale latency down
+  roughly linearly.
 
 ## Multi-turn semantics
 

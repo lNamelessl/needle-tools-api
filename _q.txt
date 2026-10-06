@@ -1,0 +1,1 @@
+{ serviceInstance(environmentId: "9458a0a6-4e35-4e03-a8ed-4e222fae245f", serviceId: "b67fe1a2-5de1-47b4-9e61-c865e7bc4a2c") { healthcheckPath healthcheckTimeout restartPolicyType restartPolicyMaxRetries builder } }
