@@ -12,7 +12,7 @@ free-plan friendly, grammar-guaranteed JSON, zero credentials.
 Sibling template to [whistle-stt-api](https://github.com/lNamelessl/whistle-stt-api)
 (same engine family, speech-to-text).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/new?github_url=https://github.com/lNamelessl/needle-tools-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/needle-tools-api)
 
 ## What you get
 

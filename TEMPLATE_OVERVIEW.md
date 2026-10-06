@@ -1,6 +1,6 @@
 # Deploy and Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/new?github_url=https://github.com/lNamelessl/needle-tools-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/needle-tools-api)
 
 Needle Tool-Calling API serves Cactus Compute's **Needle 3** — a 35.3 MB "Automation Foundation Model" (Apache-2.0, 115k+ downloads in its first three weeks) — as an **OpenAI-shaped HTTP API** for tool calling, structured extraction, and text embeddings. It is **not a chat LLM**: it returns grammar-guaranteed JSON tool calls and typed records, and it fits in roughly 150 MB of RAM on a free-plan-friendly 1 vCPU / 512 MB deployment.
 

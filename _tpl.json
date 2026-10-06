@@ -1,0 +1,34 @@
+{
+  "data": {
+    "template": {
+      "code": "QkCscF",
+      "name": "needle-tools-api",
+      "serializedConfig": {
+        "buckets": {},
+        "services": {
+          "ba44afdf-0fd5-4ba4-b26f-04649925244c": {
+            "deploy": {
+              "healthcheckPath": "/health",
+              "restartPolicyMaxRetries": 10,
+              "restartPolicyType": "ON_FAILURE",
+              "startCommand": null
+            },
+            "icon": null,
+            "name": "needle-api",
+            "networking": {
+              "serviceDomains": {
+                "<hasDomain>": {}
+              }
+            },
+            "source": {
+              "repo": "https://github.com/lNamelessl/needle-tools-api",
+              "rootDirectory": null
+            },
+            "variables": {}
+          }
+        }
+      },
+      "status": "UNPUBLISHED"
+    }
+  }
+}

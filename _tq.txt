@@ -1,0 +1,1 @@
+query { template(id: "69068ee1-6ed9-4a1e-b195-726de76fe11a") { code name status serializedConfig } }
