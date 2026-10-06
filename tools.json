@@ -1,0 +1,38 @@
+{
+  "tools": [
+    {
+      "name": "get_weather",
+      "description": "Get the current weather for a city.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {"type": "string"},
+          "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]}
+        },
+        "required": ["city"]
+      }
+    },
+    {
+      "name": "get_time",
+      "description": "Get the current time for a city or timezone.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {"type": "string"}
+        },
+        "required": ["city"]
+      }
+    },
+    {
+      "name": "search_notes",
+      "description": "Search the user's personal notes.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string"}
+        },
+        "required": ["query"]
+      }
+    }
+  ]
+}

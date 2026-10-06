@@ -1,0 +1,11 @@
+.git
+.gitignore
+venv
+__pycache__
+*.pyc
+tests
+scripts
+vendor/*.whl
+README.md
+TEMPLATE_OVERVIEW.md
+_agents.md
